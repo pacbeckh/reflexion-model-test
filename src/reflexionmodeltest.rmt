@@ -1,0 +1,25 @@
+<rmt>
+
+<hlm>
+<arc from="EndPoint" to="EndPoint"/>
+<arc from="EndPoint" to="Services"/>
+<arc from="EndPoint" to="Authorization"/>
+<arc from="Authorization" to="Authorization"/>
+<arc from="Services" to="Services"/>
+<arc from="Services" to="Database"/>
+<arc from="Services" to="Model"/>
+<arc from="Database" to="Model"/>
+<arc from="Database" to="Database"/>
+<arc from="Model" to="Model"/>
+</hlm>
+
+<map>
+<entry package="domain" mapTo="Model"/>
+<entry package="database" mapTo="Database"/>
+<entry package="service" mapTo="Services"/>
+<entry class="StudentEndPoint" mapTo="EndPoint"/>
+<entry class="Authorizer" mapTo="Authorization"/>
+</map>
+
+</rmt>
+
