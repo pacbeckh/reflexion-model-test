@@ -1,5 +1,5 @@
 # Reflexion model experiment
-The reflexion model technique is applied on a very simple java student application.  
+The reflexion model technique is applied on a very simple java student application. Note that RM Tool use java 1.4
 
 Prerequisites to reproduce the experiment:  
 -  [Eclipse 3.4.2](http://www.eclipse.org/downloads/packages/eclipse-classic-342/ganymedesr2 "Eclipse 3.4.2")  
